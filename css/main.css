@@ -1,0 +1,85 @@
+
+body {
+  padding: 40px 0 60px;
+  background-color: rgb(221, 239, 240);
+ }
+
+ button {
+  padding: 10px 20px 20px 10px;
+  color: white;
+  background-color: #2bbbfd;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+  font-style: normal;
+  width: auto;
+  border: 2px solid #5da372;
+  border-width: 1px 1px 3px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-right: 70px;
+}
+
+#container {
+  max-width: 50px;
+  margin: auto;
+}
+
+/*************************
+Media Queries
+*************************/
+
+@media only screen and (min-width: 480px) {
+
+ nav a {
+  float: left;
+  width: 30%;
+  margin: 0 0 0 5%;
+  padding: 25px 1%;
+  margin-bottom: 0;
+ }
+
+ nav li:first-child a {
+  margin-left: 0;
+ }
+
+ nav li:last-child a {
+  margin-right: 0;
+ }
+}
+
+@media only screen and (min-width: 768px),
+      only screen and (min-width: 700px) and (orientation: landscape) {
+
+ .title {
+  float: left;
+  font-size: 2em;
+}
+
+ nav {
+  float: right;
+  width: 60%;
+}
+
+ nav a {
+  padding: 15px 1%;
+ }
+}
+
+/*************************
+Clearfix
+*************************/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}

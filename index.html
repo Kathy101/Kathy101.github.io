@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> Multiplication for Kids</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/style.css">
+  <body>
+   <div class="container">
+    <h1><img class="images" src="images/LovelyBear.png" ALIGN="left"/>Multiplication for Kids</img></h1>      
+   <div class="container text-align: left;">
+    <h2><font color="lightpurple">Practice Your Multiplication Skill.</font></h2>
+    <p><font color="lightpurple">You will become Smarter!</font></p>
+   </div>
+  </div>
+
+ <div input type="button" value="button">
+  <button type="button" class="btn-primary" onclick="RndA0(), RndB0(), multiply(), ClearInput()">Play Now</button>
+   <div id="Rnd0, Rnd1">
+    Multiply:
+     <br>
+     <br>
+   <div id="Rnd0, Rnd1" class="old-space-indent">
+    <table id="Rnd0, Rnd1">
+     <tbody id="Rnd0, Rnd1">
+      <tr id="Rnd0, Rnd1">
+       <span id="Rnd0, Rnd1" class="old-fi-holder" data-index="0">
+      <label type="text" class="Rnd0" id="Rnd0"></label><br>
+      X
+      <label type="text" class="Rnd1" id="Rnd1"></label><br>  
+       <div>
+         </span>
+        </tr>
+       </tbody>
+      </table>
+    </div>
+   </div>
+  </div>
+ </div>
+
+  <h3> ===== </h3>
+   <input type="number" id="myNumber" value="0000" min="0" max="9999">
+    <p>Type Your Answer:</p>
+     <input type="Submit" value="Submit" onclick="myFunction(), ResultChk()" id="InputZ0">
+   <p id="AnsGoodZ"></p>
+ 
+ <script>
+  function myFunction() {
+    var x = document.getElementById("myNumber").value;
+    document.getElementById("InputZ0").innerHTML = x;
+  }
+ </script>
+  
+  <script>
+   function ClearInput() {
+    document.getElementById("myNumber").value = 'none';
+   }
+   </script>
+
+ <!-- about -->  
+ <div class="card" style="width: 14rem;">
+  <img class="card-img-top" src="images/mathematics-clipart-animated-gif-9.gif" alt="Card image cap">
+   <div class="card-body">
+    <h4 class="card-title">Mathematics Clipart Animated</h4>
+  </div>
+</div><!-- /about --> 
+
+  <script src="js/multiply.js"></script>
+
+  </body>
+ </head>
+</html>
