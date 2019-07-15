@@ -1,4 +1,4 @@
-# Add my MathProject for the CodeOfLouisville requirement 2019JulXX,
+# Add my MathProject for the CodeOfLouisville requirement 2019,Jul 26.
 
 This is my project for the Course of Louisville Front End Development.
 The project is name as : MathProject.
