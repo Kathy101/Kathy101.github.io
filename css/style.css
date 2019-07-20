@@ -1,5 +1,4 @@
 /* Styles -------------------- */
-
 *	{ 
 	margin: 0;
 	padding: 0;  
@@ -10,22 +9,17 @@ body {
 	text-align: center; 
 }
 
+h1,
 .images {
- color: white;
+ color: rgb(32, 43, 53);
  margin: auto;
- text-align: left;
- font-size: 30px;
+ text-align: center;
+ font-size: 20px;
 }
 
-#page-wrap { 
-	width: 400px; 
-	margin: 25px auto; 
-}
-
-h1,h2 {
+h2 {
  color: rgb(72, 78, 133); 
 	font: bold 20px Helvetica, Sans-Serif;
-	letter-spacing: 3px;
  margin: auto;
  text-align: center;
  font-size: 20px;
@@ -34,6 +28,11 @@ h1,h2 {
 p {
  font-size: 20px;
  color: rgb(72, 78, 133);
+}
+
+[class*="col-"] {
+ float: left;
+ padding: 15px;
 }
 
 input[type=number] {
@@ -86,12 +85,12 @@ text-align: center;
 	margin: 30px;
  margin-bottom: 15px;
  margin-top: 5px;
-	width: 100px;
+	width: 150px;
 	border-radius: 20px;
 }
 
 @media (max-width: 480px) {
-	#container {
+	.header {
 		width: 90%;
 	}
 }
