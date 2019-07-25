@@ -29,28 +29,26 @@ body {
 Media Queries
 *************************/
 
+@media (min-width: 480px) {
 /* For mobile phones: */
-[class*="col-"] {
- width: 100%;
+[class*="col-"]
+.col-1 {width: 20%;}
+.col-2 {width: 45%;}
+.col-3 {width: 35%;}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
  /* For tablets: */
  .col-s-1 {width: 20%;}
  .col-s-2 {width: 40%;}
  .col-s-3 {width: 40%;}
 }
 
-h1,
-.images {
- font-size: 20px;
-}
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
  /* For desktop: */
- .col-1 {width: 30%;}
- .col-2 {width: 35%;}
- .col-3 {width: 35%;}
+ .col-1 {width: 20%;}
+ .col-2 {width: 40%;}
+ .col-3 {width: 40%;}
 }
 
 /*************************
